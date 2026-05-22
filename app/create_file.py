@@ -8,7 +8,7 @@ d_idx = arg.index("-d") if "-d" in arg else -1
 f_idx = arg.index("-f") if "-f" in arg else -1
 
 dir_parts = []
-filename = ""
+filename = " "
 
 if d_idx != -1:
     if f_idx != -1 and f_idx > d_idx:
